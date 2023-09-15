@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya&family=Kaushan+Script&family=Lobster&family=New+Tegomin&family=Poppins&family=Ysabeau+Office:wght@500&family=Ysabeau+SC:wght@200;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Portfolio created by Rohi_developer</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="cover cover-left"></div>
+        <div class="cover cover-right"></div>
+
+        <div class="book">
+            <!-- profile page -->
+            <div class="book-page page-left">
+                <div class="profolio-page">
+                    <img src="logo.jpg" alt="logo">
+                    <h1>Rohan Sheikh</h1>
+                    <h3>Web Developer</h3>
+
+                    <div class="social-media">
+                        <a href="#"><i class="fa-brands fa fab fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa fab fa-linkedin"></i></a>
+                    </div>
+
+                    <p>Hi, I am Rohan Sheikh, a Web Developer. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        In nulla ipsa aliquam minima non quibusdam exercitationem consequuntur necessitatibus iusto
+                        dicta corporis officiis beatae, expedita placeat quas dolorum sed architecto molestias!</p>
+
+                    <div class="btn-box">
+                        <a href="#" class="btn">Download CV</a>
+                        <a href="#" class="btn contact-me">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- page 1 & 2 -->
+            <div class="book-page page-right turn" id="turn-1">
+                <!-- page 1 (work experience) -->
+                <div class="page-front">
+                    <h1 class="title">Work Experience</h1>
+
+                    <div class="workeduc-box">
+                        <div class="workeduc-content">
+                            <span class="year"><i class="bx bxs-calendar"></i>2020 - 2021</span>
+                            <h3>Web Developer - Company</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, autem. Accusantium,
+                                obcaecati provident similique rerum nostrum, commodi tempora magnam.</p>
+                        </div>
+
+
+                        <div class="workeduc-content">
+                            <span class="year"><i class="bx bxs-calendar"></i>2020 - 2021</span>
+                            <h3>Web Developer - Company</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, autem. Accusantium,
+                                obcaecati provident similique rerum nostrum, commodi tempora magnam.</p>
+                        </div>
+
+
+                        <div class="workeduc-content">
+                            <span class="year"><i class="bx bxs-calendar"></i>2020 - 2021</span>
+                            <h3>Web Developer - Company</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, autem. Accusantium,
+                                obcaecati provident similique rerum nostrum, commodi tempora magnam.</p>
+                        </div>
+                    </div>
+
+                    <span class="number-page">1</span>
+
+                    <!-- next button -->
+                    <span class="nextprev-btn" data-page="turn-1">
+                        <i class="bx bx-chevron-right"></i>
+                    </span>
+                </div>
+
+                <!-- page 2 (education) -->
+                <div class="page-back">
+                    <h1 class="title">Education</h1>
+
+                    <div class="workeduc-box">
+                        <div class="workeduc-content">
+                            <span class="year"><i class="bx bxs-calendar"></i>2017 - 2018</span>
+                            <h3>Master Degree - University</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, autem. Accusantium,
+                                obcaecati provident similique rerum nostrum, commodi tempora magnam.</p>
+                        </div>
+
+
+                        <div class="workeduc-content">
+                            <span class="year"><i class="bx bxs-calendar"></i>2018 - 2019</span>
+                            <h3>Master Degree - University</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, autem. Accusantium,
+                                obcaecati provident similique rerum nostrum, commodi tempora magnam.</p>
+                        </div>
+
+
+                        <div class="workeduc-content">
+                            <span class="year"><i class="bx bxs-calendar"></i>2019 - 2020</span>
+                            <h3>Master Degree - University</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, autem. Accusantium,
+                                obcaecati provident similique rerum nostrum, commodi tempora magnam.</p>
+                        </div>
+                    </div>
+
+                    <span class="number-page">2</span>
+
+                    <!-- prev button -->
+                    <span class="nextprev-btn back" data-page="turn-1">
+                        <i class="bx bx-chevron-left "></i>
+                    </span>
+                </div>
+            </div>
+
+            <!-- page 3 & 4 -->
+            <div class="book-page page-right turn" id="turn-2">
+                <!-- page 3 (my services) -->
+                <div class="page-front">
+                    <h1 class="title">My Services</h1>
+
+                    <div class="services-box">
+                        <div class="services-content">
+                            <i class="bx bx-code-alt"></i>
+                            <h3>Web Development</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+
+
+                        <div class="services-content">
+                            <i class="bx bxs-paint"></i>
+                            <h3>Creative Design</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+
+
+                        <div class="services-content">
+                            <i class="bx bx-bar-chart-alt"></i>
+                            <h3>Digital Marketing</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+
+
+                        <div class="services-content">
+                            <i class="bx bx-search"></i>
+                            <h3>SEO</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+
+
+                        <span class="number-page">3</span>
+
+                        <!-- next button -->
+                        <span class="nextprev-btn" data-page="turn-2">
+                            <i class="bx bx-chevron-right"></i>
+                        </span>
+
+
+                    </div>
+                </div>
+
+
+                <!-- page 4 (my skills) -->
+                <div class="page-back">
+                    <h1 class="title">My Skills</h1>
+
+                    <div class="skills-box">
+                        <div class="skills-content">
+                            <h3>Front-End</h3>
+                            <div class="content">
+                                <span><i class="bx bxl-html5"></i> HTML</span>
+                                <span><i class="bx bxl-css3"></i> CSS</span>
+                                <span><i class="bx bxl-javascript"></i> JS</span>
+                                <span><i class="bx bxl-angular"></i> Angular</span>
+                                <span><i class="bx bxl-react"></i> React</span>
+                                <span><i class="bx bxl-bootstrap"></i> Bootstrap</span>
+                                <span><i class="bx bxl-tailwind-css"></i> Tailwind</span>
+                            </div>
+                        </div>
+                        <div class="skills-content">
+                            <h3>Back-End</h3>
+                            <div class="content">
+                                <span><i class="bx bxl-python"></i> Python</span>
+                                <span><i class="bx bxl-java"></i> Java</span>
+                                <span><i class="bx bxl-php"></i> PHP</span>
+                                <span><i class="bx bxl-nodejs"></i> Node</span>
+                            </div>
+                        </div>
+                        <div class="skills-content">
+                            <h3>UI/UX Design</h3>
+                            <div class="content">
+                                <span><i class="bx bxl-figma"></i> Figma</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <span class="number-page">4</span>
+
+                    <!-- prev button -->
+                    <span class="nextprev-btn back" data-page="turn-2">
+                        <i class="bx bx-chevron-left "></i>
+                    </span>
+
+
+                </div>
+            </div>
+
+            <!-- page 3 & 4 -->
+            <div class="book-page page-right turn" id="turn-3">
+                <!-- page 5 (latest project or my Portfolio) -->
+                <div class="page-front">
+                    <h1 class="title">Latest Project</h1>
+
+                    <div class="portfolio-box">
+                        <div class="img-box">
+                            <img src="picture.jpg" alt="">
+                        </div>
+
+
+                        <div class="info-box">
+                            <div class="info-title">
+                                <h3>Project Name</h3>
+                                <a href="#">Live Preview <i class="bx bx-link-external"></i></a>
+                            </div>
+                            <p>Tech Used:</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita dolore dolorum fugiat
+                                aliquam sunt fugit ratione impedit nobis sit cum?</p>
+                        </div>
+
+                        <div class="btn-box">
+                            <a href="#" class="btn">Source Code</a>
+                            <a href="#" class="btn">More Projects</a>
+                        </div>
+                    </div>
+
+                    <span class="number-page">5</span>
+
+                    <!-- next button -->
+                    <span class="nextprev-btn" data-page="turn-3">
+                        <i class="bx bx-chevron-right"></i>
+                    </span>
+
+                </div>
+
+                <!-- page 6 (contact me) -->
+                <div class="page-back">
+                    <h1 class="title">Contact Me!</h1>
+
+                    <div class="contact-box">
+                        <form action="#">
+                            <input type="text" class="field" placeholder="Full Name" required>
+                            <input type="email" class="field" placeholder="Email Address" required>
+                            <textarea name="" id="" cols="30" rows="10" class="field" placeholder="Your Message"
+                                required></textarea>
+                            <input type="submit" value="Send Message" class="btn">
+                        </form>
+                    </div>
+
+
+                    <span class="number-page">6</span>
+
+                    <!-- prev button -->
+                    <span class="nextprev-btn back" data-page="turn-3">
+                        <i class="bx bx-chevron-left "></i>
+                    </span>
+
+
+                    <a href="#" class="back-profile">
+                        <p>Profile</p>
+                        <i class="bx bxs-user"></i>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script>
+        // turn pages when click next or prev button
+        const pageTurnBtn = document.querySelectorAll('.nextprev-btn');
+
+        pageTurnBtn.forEach((el, index) => {
+            el.onclick = () => {
+                const pageTurnId = el.getAttribute('data-page');
+                const pageTurn = document.getElementById(pageTurnId);
+
+                if (pageTurn.classList.contains('turn')) {
+                    pageTurn.classList.remove('turn');
+
+
+                    setTimeout(() => {
+                        pageTurn.style.zIndex = 20 - index;
+                    }, 500)
+
+
+                }
+                else {
+                    pageTurn.classList.add('turn');
+
+
+                    setTimeout(() => {
+                        pageTurn.style.zIndex = 20 + index;
+                    }, 500)
+
+
+                }
+            }
+        })
+
+
+        // contact me button when click
+        const pages = document.querySelectorAll('.book-page.page-right');
+        const contactMeBtn = document.querySelector('.btn.contact-me');
+
+        contactMeBtn.onclick = () => {
+            pages.forEach((page, index) => {
+
+
+                setTimeout(() => {
+                    page.classList.add('turn');
+
+
+                    setTimeout(() => {
+                        page.style.zIndex = 20 + index;
+                    }, 500)
+
+
+                }, (index + 1) * 200 + 100)
+            })
+        }
+
+
+        // create reverse index function
+        let totalPages = pages.length;
+        let pageNumber = 0;
+
+        function reverseIndex() {
+            pageNumber--;
+            if (pageNumber < 0) {
+                pageNumber = totalPages - 1;
+            }
+        }
+
+        // back profile button when click
+        const backProfileBtn = document.querySelector('.back-profile');
+
+        backProfileBtn.onclick = () => {
+            pages.forEach((_, index) => {
+
+
+                setTimeout(() => {
+                    reverseIndex();
+                    pages[pageNumber].classList.remove('turn');
+
+
+                    setTimeout(() => {
+                        reverseIndex();
+                        pages[pageNumber].style.zIndex = 10 + index;
+                    }, 500)
+
+
+                }, (index + 1) * 200 + 100)
+            })
+        }
+
+        // opening animation
+        const coverRight = document.querySelector('.cover.cover-right')
+        const pageLeft = document.querySelector('.book-page.page-left')
+
+        // opening animation (cover right animation)
+        setTimeout(() => {
+            coverRight.classList.add('turn');
+        }, 2100)
+        
+        
+        setTimeout(() => {
+            coverRight.style.zIndex = -1;
+        }, 2800)
+
+        
+        // opening animation (page left or profile page animation)
+        setTimeout(() => {
+            pageLeft.style.zIndex = 20;
+        }, 3200)
+
+
+        // opening animation (all page right animation)
+        pages.forEach((_, index) => {
+
+
+            setTimeout(() => {
+                reverseIndex();
+                pages[pageNumber].classList.remove('turn');
+
+
+                setTimeout(() => {
+                    reverseIndex();
+                    pages[pageNumber].style.zIndex = 10 + index;
+                }, 500)
+
+
+            }, (index + 1) * 200 + 2100)
+        })
+    </script>
+</body>
+
+</html>
